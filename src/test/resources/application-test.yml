@@ -1,0 +1,33 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: ""
+
+  # Behaviour tests assert on live rows, so caching is switched off here to keep
+  # them deterministic (their cleanup() bypasses the services and therefore the
+  # cache evictions). Cache hit/evict behaviour is covered by
+  # CacheBehaviorIntegrationTest, which turns Redis caching back on.
+  cache:
+    type: none
+
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.H2Dialect
+        format_sql: true
+    show-sql: true
+
+  flyway:
+    enabled: false
+
+  liquibase:
+    enabled: false
+
+logging:
+  level:
+    org.hibernate.SQL: DEBUG
+    org.hibernate.tool.schema: TRACE

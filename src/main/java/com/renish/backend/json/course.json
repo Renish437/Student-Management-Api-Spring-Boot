@@ -1,0 +1,72 @@
+[
+  {
+    "courseName": "Java Programming",
+    "duration": "3 months",
+    "fees": 15000.0,
+    "instructorName": "Ram Sharma",
+    "departmentId": 1
+  },
+  {
+    "courseName": "Java Programming",
+    "duration": "4 months",
+    "fees": 18000.0,
+    "instructorName": "Sita Thapa",
+    "departmentId": 2
+  },
+  {
+    "courseName": "Python Programming",
+    "duration": "4 months",
+    "fees": 18000.0,
+    "instructorName": "Hari Karki",
+    "departmentId": 1
+  },
+  {
+    "courseName": "Python Programming",
+    "duration": "5 months",
+    "fees": 20000.0,
+    "instructorName": "Anita Sharma",
+    "departmentId": 3
+  },
+  {
+    "courseName": "Database Management",
+    "duration": "3 months",
+    "fees": 12000.0,
+    "instructorName": "Suman Adhikari",
+    "departmentId": 1
+  },
+  {
+    "courseName": "Database Management",
+    "duration": "4 months",
+    "fees": 16000.0,
+    "instructorName": "Prakash Rai",
+    "departmentId": 2
+  },
+  {
+    "courseName": "Web Development",
+    "duration": "6 months",
+    "fees": 25000.0,
+    "instructorName": "Nisha Gurung",
+    "departmentId": 2
+  },
+  {
+    "courseName": "Web Development",
+    "duration": "5 months",
+    "fees": 22000.0,
+    "instructorName": "Bikash Shrestha",
+    "departmentId": 3
+  },
+  {
+    "courseName": "Software Engineering",
+    "duration": "4 months",
+    "fees": 20000.0,
+    "instructorName": "Sabina K.C.",
+    "departmentId": 1
+  },
+  {
+    "courseName": "Software Engineering",
+    "duration": "5 months",
+    "fees": 24000.0,
+    "instructorName": "Amit Poudel",
+    "departmentId": 2
+  }
+]

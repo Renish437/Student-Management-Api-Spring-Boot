@@ -1,0 +1,74 @@
+[
+  {
+    "departmentName": "Information Technology",
+    "code": "IT",
+    "description": "Focuses on information systems, networking, cybersecurity, and IT infrastructure.",
+    "headOfDepartment": "Dr. Suman Adhikari",
+    "location": "Block B, First Floor",
+    "contactEmail": "it@university.edu",
+    "contactNumber": "+977-9801234568"
+  },
+  {
+    "departmentName": "Civil Engineering",
+    "code": "CE",
+    "description": "Provides education in structural engineering, construction, transportation, and environmental engineering.",
+    "headOfDepartment": "Er. Bibek Thapa",
+    "location": "Engineering Block, Ground Floor",
+    "contactEmail": "civil@university.edu",
+    "contactNumber": "+977-9801234571"
+  },
+  {
+    "departmentName": "Electrical Engineering",
+    "code": "EE",
+    "description": "Covers electrical circuits, power systems, electronics, control systems, and renewable energy.",
+    "headOfDepartment": "Dr. Nabin Shrestha",
+    "location": "Engineering Block, First Floor",
+    "contactEmail": "electrical@university.edu",
+    "contactNumber": "+977-9801234572"
+  },
+  {
+    "departmentName": "Business Administration",
+    "code": "BBA",
+    "description": "Provides education in management, marketing, finance, entrepreneurship, and business strategy.",
+    "headOfDepartment": "Prof. Anita Karki",
+    "location": "Block C, Second Floor",
+    "contactEmail": "business@university.edu",
+    "contactNumber": "+977-9801234569"
+  },
+  {
+    "departmentName": "Mathematics",
+    "code": "MATH",
+    "description": "Focuses on mathematical theories, statistics, algebra, calculus, and analytical problem-solving.",
+    "headOfDepartment": "Dr. Prakash Gautam",
+    "location": "Block A, Third Floor",
+    "contactEmail": "math@university.edu",
+    "contactNumber": "+977-9801234570"
+  },
+  {
+    "departmentName": "Physics",
+    "code": "PHY",
+    "description": "Studies classical mechanics, electromagnetism, optics, quantum physics, and experimental science.",
+    "headOfDepartment": "Dr. Binita Joshi",
+    "location": "Block A, Fourth Floor",
+    "contactEmail": "physics@university.edu",
+    "contactNumber": "+977-9801234575"
+  },
+  {
+    "departmentName": "Chemistry",
+    "code": "CHEM",
+    "description": "Focuses on organic chemistry, inorganic chemistry, analytical techniques, and chemical reactions.",
+    "headOfDepartment": "Dr. Ramesh Poudel",
+    "location": "Science Block, First Floor",
+    "contactEmail": "chemistry@university.edu",
+    "contactNumber": "+977-9801234576"
+  },
+  {
+    "departmentName": "Environmental Science",
+    "code": "ENV",
+    "description": "Studies environmental protection, climate change, biodiversity, pollution control, and sustainability.",
+    "headOfDepartment": "Dr. Sarita Maharjan",
+    "location": "Science Block, Second Floor",
+    "contactEmail": "environment@university.edu",
+    "contactNumber": "+977-9801234577"
+  }
+]
