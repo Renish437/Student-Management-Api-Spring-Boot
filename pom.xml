@@ -131,11 +131,11 @@
 			<scope>test</scope>
 		</dependency>
 				<!-- 2. JPA Admin Starter dependency -->
-		<dependency>
-			<groupId>com.github.substring-projects.jpa-admin</groupId>
-			<artifactId>jpa-admin-spring-boot-starter</artifactId>
-			<version>v1.0.1</version>
-		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>com.github.substring-projects.jpa-admin</groupId>-->
+<!--			<artifactId>jpa-admin-spring-boot-starter</artifactId>-->
+<!--			<version>v1.0.1</version>-->
+<!--		</dependency>-->
 
 
 
