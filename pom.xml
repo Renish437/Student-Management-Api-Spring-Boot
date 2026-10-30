@@ -127,11 +127,19 @@
 			<scope>test</scope>
 		</dependency>
 				<!-- 2. JPA Admin Starter dependency -->
-<!--		<dependency>-->
-<!--			<groupId>com.github.substring-projects.jpa-admin</groupId>-->
-<!--			<artifactId>jpa-admin-spring-boot-starter</artifactId>-->
-<!--			<version>v1.0.1</version>-->
-<!--		</dependency>-->
+		<dependency>
+			<groupId>com.github.substring-projects.jpa-admin</groupId>
+			<artifactId>jpa-admin-spring-boot-starter</artifactId>
+			<version>v1.0.1</version>
+		</dependency>
+
+		<!-- Source: https://mvnrepository.com/artifact/org.flywaydb/flyway-core -->
+		<dependency>
+			<groupId>org.flywaydb</groupId>
+			<artifactId>flyway-core</artifactId>
+			<version>13.11.1</version>
+			<scope>compile</scope>
+		</dependency>
 
 	</dependencies>
 

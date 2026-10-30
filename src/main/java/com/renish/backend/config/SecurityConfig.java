@@ -109,6 +109,7 @@ public class SecurityConfig {
 
                         .requestMatchers("/api/v1/admin/**").hasRole("ADMIN")
                         .requestMatchers(
+                                "/admin-panel/**",
                                 "/api/v1/auth/**",
                                 "/api/v1/otp/**",
                                 "/swagger-ui.html",

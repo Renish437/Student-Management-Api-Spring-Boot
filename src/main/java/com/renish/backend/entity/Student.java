@@ -61,6 +61,9 @@ public class Student extends BaseEntity {
     @Column(name = "profile_image")
     private String profileImage;
 
+    @Column(name = "phone_number")
+    private String phoneNumber;
+
     private String password;
 
     @Builder.Default
