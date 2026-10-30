@@ -27,6 +27,8 @@ spring:
       password: ${REDIS_PASSWORD}
       ssl:
         enabled: ${REDIS_SSL_ENABLED:false}
+      repositories:
+        enabled: false
   cache:
     redis:
       time-to-live: 10m
