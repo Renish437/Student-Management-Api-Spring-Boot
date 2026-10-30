@@ -77,6 +77,26 @@ logging:
       lettuce:
         core: DEBUG
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
+  endpoint:
+    health:
+      show-details: NEVER
+  info:
+    env:
+      enabled: true
+info:
+  app:
+    name: Student Management System
+    description: Spring Boot Student Management REST API
+    version: 1.0.0
+
+
+
+
 
 
 app:
