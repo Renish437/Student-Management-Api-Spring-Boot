@@ -110,6 +110,7 @@ public class SecurityConfig {
                         .requestMatchers("/api/v1/admin/**").hasRole("ADMIN")
                         .requestMatchers(
                                 "/admin/api/**",
+                                "/admin-panel",
                                 "/admin-panel/**",
                                 "/api/v1/auth/**",
                                 "/api/v1/otp/**",
