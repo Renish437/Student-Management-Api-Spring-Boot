@@ -52,17 +52,29 @@ spring:
     ansi:
       enabled: ALWAYS
 
-
 logging:
   level:
     root: INFO
-    com.renish.backend: DEBUG
+
+    com:
+      renish:
+        backend: DEBUG
+
     org:
+      springframework:
+        data:
+          redis: DEBUG
       hibernate:
-        SQL: DEBUG 
+        SQL: DEBUG
         orm:
           jdbc:
             bind: TRACE
+
+    io:
+      lettuce:
+        core: DEBUG
+
+
 
 app:
   admin:
