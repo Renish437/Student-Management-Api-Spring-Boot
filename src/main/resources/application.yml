@@ -79,10 +79,14 @@ logging:
         core: DEBUG
 
 management:
+  metrics:
+    tags:
+      application: ${spring.application.name}
+      environment: ${APP_ENV:local}
   endpoints:
     web:
       exposure:
-        include: health,info,metrics
+        include: health,info,metrics,prometheus
   endpoint:
     health:
       show-details: NEVER
@@ -94,6 +98,7 @@ info:
     name: Student Management System
     description: Spring Boot Student Management REST API
     version: 1.0.0
+
 
 
 

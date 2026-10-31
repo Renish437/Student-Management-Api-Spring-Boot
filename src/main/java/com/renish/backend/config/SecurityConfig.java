@@ -108,6 +108,8 @@ public class SecurityConfig {
                         .hasRole("ADMIN")
 
                         .requestMatchers("/api/v1/admin/**").hasRole("ADMIN")
+                        .requestMatchers( "/actuator/metrics",
+                                "/actuator/metrics/**").hasRole("ADMIN")
                         .requestMatchers(
                                 "/api/v1/auth/**",
                                 "/api/v1/otp/**",
@@ -117,13 +119,14 @@ public class SecurityConfig {
                                 "/error",
                                 "/actuator/health",
                                 "/actuator/health/**",
+                                "/actuator/prometheus",
 
-                                "/actuator/info",
-                                "/actuator/metrics",
-                                "/actuator/metrics/**"
+                                "/actuator/info"
+
 
 
                         )
+
                         .permitAll()
                         .anyRequest()
                         .authenticated()
